@@ -14,6 +14,9 @@
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
+// Entry build: the app is a full guide and tracker now (cited guides for all 55
+// trophies, kind and missable filters, a spoiler setting, a platinum roadmap),
+// still plain static files under app/, still offline. The hand-in below is unchanged.
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
