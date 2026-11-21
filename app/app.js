@@ -74,7 +74,7 @@ function renderChecklist() {
 // platinum itself. Each stage lists what it holds and how much is done.
 function renderRoadmap() {
   const stages = [
-    { stage: 1, title: 'Stage 1 — Story playthrough', text: 'Chapters 1–4, the named story missions (Gone Fishing, Breakfast Run, The Cartel Heist, Child\u2019s Play, Headliners, VCIA Takedown, Operation Savage Glory) and the final mission. Mind the missables: the finale and the choice trophy.' },
+    { stage: 1, title: 'Stage 1 — Story playthrough', text: 'Chapters 1–4, the named story missions (Gone Fishing, Breakfast Run, The Cartel Heist, Child’s Play, Headliners, VCIA Takedown, Operation Savage Glory) and the final mission. Mind the missables: the finale and the choice trophy.' },
     { stage: 2, title: 'Stage 2 — Side content', text: 'Character strands (Andy, Kenton, Billy, Randy, Tyrone), 8 Strangers & Freaks strands, partner activities, hunting, fishing, arcade and bowling. Try all 9 activity types.' },
     { stage: 3, title: 'Stage 3 — Collectibles and counts', text: '250 stunts, 42 Shooting Range golds, 14 drone races, 20 race wins, 18 meditation spots, 3 card sets, 100 WAiNK spots, 100 vehicles, 52 areas, 8 garages, 5 bank vaults, 50 challenges.' },
     { stage: 4, title: 'Stage 4 — Cleanup and platinum', text: '100% completion, then the platinum. Sweep whatever the checklist still shows as unearned.' },
